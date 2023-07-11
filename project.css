@@ -1,0 +1,145 @@
+.header{
+    background:#ecf0f1;
+}
+.header h1{
+    color:#4b7bec;
+}
+
+.header li a:hover{
+    background: #718093;
+}
+
+.body{
+    width: 100%;
+    height:600px;
+    background: url(project.img/11.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.body h1{
+    color:white;
+    margin-bottom: 30px;
+}
+.body-text span{
+    font-size: 60px;
+    color: aqua;
+}
+.body p{
+   color:#fff;
+   margin-bottom: 40px;
+}
+.body-text{
+   padding: 100px 0  0 100px;
+}
+.services h2{
+    text-align: center;
+    font-size: 35px;
+}
+.services .line{
+    background: #4b7bec;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+}
+.scal{
+    margin: 30px 0;
+}
+.scal a{
+    color: white;
+    text-decoration: none;
+}
+
+.scal a:hover{
+    background:#0c2461;
+}
+
+.scal li{
+    list-style: none;
+    display: inline;
+    padding-right: 40px;
+}
+main-card{
+    margin: 30px 0;
+}
+
+.card{
+    color: white;
+}
+.card-text{
+    margin-top: 70px;
+}
+.card .btn{
+    margin-top: 10px;
+}
+.scal2{
+    color: white;
+    margin: 25px 0;
+}
+.scal2 ul{
+    padding:10px;
+}
+.scal2 li{
+    list-style: none;
+}
+.scal2 .fa{
+    font-size: 70px;
+}
+.scal2 .btn{
+    border-radius: 50xp;
+}
+.card{
+    color: white;
+}
+.card-text{
+    margin-top: 70px;
+}
+.card .btn{
+    margin-top: 10px;
+}
+
+.footer-widget{
+    background: #4b7bec;
+    color: white;
+    margin-top: 30px;
+}
+.footer-widget li{
+    list-style: none;
+}
+
+#social-media{
+
+    font-family: FontAwesome;
+ }
+
+ .footer{
+    color: #fff;
+    background:#0c2461;
+    padding: 10px 0;
+    text-align: center;
+    
+ }
+
+ @media (max-width:768px){
+
+        .header li{
+            float: left;
+        }
+       
+
+        .card-text{
+            margin-top:200px;
+        }
+        .card .btn{
+            margin-top: 10px;
+        }
+ }
+ @media (max-width:510px){
+    .card-text{
+        margin-top:100px;
+    }
+ }
+ @media (max-width:300px){
+    .card-text{
+        margin-top:50px;
+    }
+ }
